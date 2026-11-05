@@ -4,5 +4,5 @@ contact_links:
     url: https://dynotable.com/docs
     about: Read the DynoTable manual.
   - name: Email support
-    url: mailto:support@dynotable.com
-    about: Account, license and billing questions, and security reports.
+    url: https://dynotable.com/about#contact
+    about: Send an email to support@dynotable.com for account, license and billing questions, and for security reports.
