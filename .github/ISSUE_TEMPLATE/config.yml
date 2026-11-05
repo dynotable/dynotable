@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://dynotable.com/docs
+    about: Read the DynoTable manual.
+  - name: Email support
+    url: mailto:support@dynotable.com
+    about: Account, license and billing questions, and security reports.
