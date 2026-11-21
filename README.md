@@ -17,7 +17,9 @@ DynoTable is a desktop app for Amazon DynamoDB and Amazon OpenSearch Service. It
 - **AI agent on your own Amazon Bedrock.** The agent stages its edits for your review. It cannot write to your tables directly.
 - **Built-in MCP server.** Connect Claude Code, Codex or Cursor to your tables and indices.
 - **Vector search.** Create a DynamoDB vector index and search it with a sentence, a raw vector or Find similar.
-- **In your editor and terminal.** A VS Code extension and a CLI for coding agents. The agent never holds your AWS credentials.
+- **On-demand backups.** List, create and delete a table's backups, and set its point-in-time recovery period.
+- **In your editor.** Extensions for VS Code (also VSCodium, Cursor and Windsurf) and JetBrains IDEs run SQL, PartiQL and OpenSearch queries with completion from your real tables.
+- **For coding agents.** `dynotable-cli` and a Claude Code plugin give an agent read-only access to the profiles you allow. The agent never holds your AWS credentials.
 
 Your table data goes only between the app and your AWS account. It never touches a DynoTable server.
 
@@ -25,15 +27,17 @@ Your table data goes only between the app and your AWS account. It never touches
 
 Download the installer for your platform from [dynotable.com/download](https://dynotable.com/download).
 
-On Windows, you can also install it with winget:
+On Windows, you can also install it with winget or Chocolatey:
 
 ```
 winget install DynoTable.DynoTable
+choco install dynotable
 ```
 
 ## Links
 
 - [Documentation](https://dynotable.com/docs)
+- [Editor extensions](https://dynotable.com/docs/editors) · [JetBrains plugin](https://dynotable.com/docs/jetbrains) · [dynotable-cli](https://dynotable.com/docs/dynotable-cli)
 - [Pricing](https://dynotable.com/pricing)
 - [Changelog](https://dynotable.com/changelog)
 
